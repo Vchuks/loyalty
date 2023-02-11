@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../atoms/Logo";
 import house from "../../images/house2.png";
-import call from "../../images/callcalling.png";
+import callsign from "../../images/callcalling.png";
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
 
         <div className="w-full flex gap-2 my-3 md:justify-end">
           <div>
-            <Logo src={call} />
+            <Logo src={callsign} />
           </div>
           <p>+234 903 618 9485</p>
         </div>
